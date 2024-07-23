@@ -1,0 +1,125 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    z-index: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 300px;
+
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    font-family: "JetBrains Mono Variable", monospace;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #335489 0%, rgba(50, 75, 115, 0.76) 100%);
+    width: 270px;
+    height: 416px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.description {
+    width: 231px;
+    height: 143px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.name {
+    background: transparent;
+    color: black;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px 0px 0px 0px;
+}
+
+.stuff {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    padding: 5px 0px 0px 0px;
+}
+
+.github1 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 18px 0px 0px 0px;
+}
+
+.github2 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 35px 0px 0px 0px;
+}
+
+.github3 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 18px 0px 0px 0px;
+}
+
+.card2 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #E1A7A7 0%, #A77A7A 100%);
+    width: 270px;
+    height: 416px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card3 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #DFA57A 0%, #C88758 100%);
+    width: 270px;
+    height: 416px;
+    flex-shrink: 0;
+}
+
+.laptop1 {
+    background: transparent;
+    margin-top: 57px;
+}
+
+.laptop2 {
+    background: transparent;
+    margin-top: 57px;
+}
+
+.laptop3 {
+    background: transparent;
+    margin-top: 57px;
+}

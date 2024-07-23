@@ -1,0 +1,271 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    z-index: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 200px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    font-family: "JetBrains Mono Variable", monospace;
+    text-align: center;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.description {
+    width: 231px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.name {
+    background: transparent;
+    color: black;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 9px 0px 0px 0px;
+    font-style: italic;
+}
+
+.stuff {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+    line-height: 0.5;
+    font-style: italic;
+    padding: 5px 0px 0px 0px;
+}
+
+.type {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    padding: 5px 0px 0px 0px;
+}
+
+.github1 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 18px 0px 0px 0px;
+}
+
+.github2 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 35px 0px 0px 0px;
+}
+
+.github3 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 18px 0px 0px 0px;
+}
+
+.art1 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #F09EA7 0%, #F36B7A 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.art2 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #FFD6A4 0%, #E8B271 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-right: 30px; 
+    text-align: center;
+}
+
+.art3 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #FAFABE 0%, #CECE81 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.art4 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #C1EBC0 0%, #82A682 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.art5 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #B1DAFF 0%, #5EA9EE 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.art6 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #C7CAFF 0%, #8E93FC 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-right: 30px; 
+    text-align: center;
+}
+
+.art7 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #E0C4F9 0%, #CDABEB 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.art8 {
+    border-radius: 10px;
+    background: linear-gradient(270deg, #F6C2F3 0%, #F383EC 100%);
+    width: 270px;
+    height: 334px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.artwork1 {
+    background: transparent;
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+.artwork2 {
+    background: transparent;
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+.artwork3 {
+    background: transparent;
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+.artwork4 {
+    background: transparent;
+    margin-top: 57px;
+    margin-left: -10px;
+}
+
+.artwork5 {
+    background: transparent;
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+.artwork6 {
+    background: transparent;
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+.artwork7 {
+    background: transparent;
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+.artwork8 {
+    background: transparent;
+    margin-top: 57px;
+    margin-left: -10px;
+}
+
+.description1 {
+    width: 231px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.name1 {
+    background: transparent;
+    color: black;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px 0px 0px 0px;
+    font-style: italic;
+}
+
+.stuff1 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+    line-height: 0.5;
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+}
+
+.type1 {
+    background: transparent;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    padding: 12px 0px 0px 0px;
+}

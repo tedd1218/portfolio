@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+
+.title {
+    display: flex;
+    font-family: "JetBrains Mono Variable", monospace;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    color: var(--color-text);
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.name {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.copyright {
+    margin-right: 10px;
+}

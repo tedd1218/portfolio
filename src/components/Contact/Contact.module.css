@@ -1,0 +1,204 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    z-index: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+    /* margin: auto; */
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.contactdiv{
+    width: 538px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: 41px;
+}
+
+.contactform{
+    background: none;
+}
+
+.contacttext {
+    background: none;
+    color: #E5495A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    margin-top: 34px;
+    margin-left: 37px;
+}
+
+.touchtext {
+    color: #000;
+    background: none;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    margin-left: 37px;
+}
+
+.contactlabel{
+    background: none;
+}
+
+.contactinput{
+    background: none;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    font-family: "JetBrains Mono Variable", monospace;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    font-family: var(--font-akshar);
+    margin-bottom: 30px;
+    text-align: center;
+    width: 440px;
+}
+
+.firstname {
+    background: none;
+    width: 223px;
+    height: 49px;
+    flex-shrink: 0;
+    margin-left: -16px;
+    margin-right: 19px;
+}
+
+.lastname {
+    background: none;
+    width: 223px;
+    height: 49px;
+    flex-shrink: 0;
+}
+
+.field {
+    background: none;
+    width: 223px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #CFCDCD;
+    margin-left: 10px;
+    padding: 0 0 0 15px;
+}
+
+.group {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.email {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 465px;
+    height: 49px;
+    flex-shrink: 0;
+    margin-left: 38px;
+    margin-top: 21px;
+}
+
+.emailfield {
+    background: none;
+    width: 465px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #CFCDCD;
+    padding: 0 0 0 15px;
+}
+
+.subject {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 465px;
+    height: 49px;
+    flex-shrink: 0;
+    margin-left: 38px;
+    margin-top: 21px;
+}
+
+.subjectfield {
+    background: none;
+    width: 465px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #CFCDCD;
+    padding: 0 0 0 15px;
+}
+
+.description {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 465px;
+    height: 49px;
+    flex-shrink: 0;
+    margin-left: 38px;
+    margin-top: 44px;
+}
+
+.descriptionfield {
+    background: none;
+    width: 465px;
+    height: 98px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #CFCDCD;
+    padding: 15px 0 0 15px;
+}
+
+.submit {
+    width: 143px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #E5495A;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: 35px;
+    margin-top: 60px;
+}
