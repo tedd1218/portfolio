@@ -1,11 +1,26 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 
 import styles from "./Hero.module.css";
 import {getImageUrl} from "../../utils";
+import { motion, useInView, useAnimation } from "framer-motion";
 
 export const Hero = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref);
+
+    const mainControls = useAnimation();
+
+    useEffect(() =>  {
+        if (isInView) {
+            mainControls.start("visible");
+        }
+    }, [isInView]);
+
     return (
-    <section className={styles.container} id="hero">
+    <motion.section className={styles.container} id="hero"
+        initial= {{ opacity: 0, y: 75 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.25}}>
         <div className={styles.content}>
             <h1 className={styles.title}>&lt;tedd_portfolio/&gt;</h1>
             <p className={styles.description}>
@@ -19,5 +34,6 @@ export const Hero = () => {
                 />
             </a>
         </div>
-    </section>);
+    </motion.section>
+    );
 }

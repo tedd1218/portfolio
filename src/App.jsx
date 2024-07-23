@@ -8,12 +8,9 @@ import { Art } from './components/Art/Art';
 import { Contact } from './components/Contact/Contact';
 import { Footer } from './components/Footer/Footer';
 
-import Fade from "react-reveal/Fade";
-
 function App() {
   return <div className={styles.App}>
     <Navbar />
-    <Fade bottom distance="10%" duration={1500}>
       <Hero />
       <About />
       <Experience />
@@ -21,7 +18,6 @@ function App() {
       <Art />
       <Contact />
       <Footer />
-    </Fade>
   </div>;
 }
 

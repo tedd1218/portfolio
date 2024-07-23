@@ -1,10 +1,26 @@
-import React from "react"
+import React, {useState, useEffect, useRef} from "react";
+import { motion, useInView, useAnimation } from "framer-motion";
 import styles from "./Contact.module.css";
 import {getImageUrl} from "../../utils";
 
 export const Contact = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+    const ref = useRef(null);
+    const isInView = useInView(ref);
+
+    const mainControls = useAnimation();
+
+    useEffect(() =>  {
+        if (isInView) {
+            mainControls.start("visible");
+        }
+    }, [isInView]);
+    
     return (
-    <section className={styles.container} id="contact">
+    <motion.section className={styles.container} id="contact"
+        initial= {{ opacity: 0, y: 75 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.25}}>
         <h1 className={styles.title}>&lt;contact/&gt;</h1>
         <div className={styles.content}>
             <img src={getImageUrl("contact/cmupic.svg")} alt="cmu-picture" className={styles.cmupic}>
@@ -38,5 +54,5 @@ export const Contact = () => {
                 </form>
             </div>
         </div>
-    </section>);
+    </motion.section>);
 }

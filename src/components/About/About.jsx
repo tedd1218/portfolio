@@ -1,10 +1,26 @@
-import React from "react"
+import React, {useState, useEffect, useRef} from "react";
+import { motion, useInView, useAnimation } from "framer-motion";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils"
 
 export const About = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+    const ref = useRef(null);
+    const isInView = useInView(ref);
+
+    const mainControls = useAnimation();
+
+    useEffect(() =>  {
+        if (isInView) {
+            mainControls.start("visible");
+        }
+    }, [isInView]);
+    
     return (
-    <section className={styles.container} id="about">
+    <motion.section className={styles.container} id="about"
+        initial= {{ opacity: 0, y: 75 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.25}}>
         <h1 className={styles.title}>&lt;about/&gt;</h1>
         <p className={styles.para}>
             I was born and raised in Johns Creek, a suburb just north of Atlanta. 
@@ -31,5 +47,5 @@ export const About = () => {
             team the Atlanta Falcons. I also love strumming my guitar and finding 
             new music to play on repeat.
         </p>
-    </section>);
+    </motion.section>);
 };

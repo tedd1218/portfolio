@@ -1,13 +1,27 @@
-import React, {useState} from "react";
+import React, {useState, useEffect, useRef} from "react";
+import { motion, useInView, useAnimation } from "framer-motion";
 
 import styles from "./Footer.module.css"
 import {getImageUrl} from "../../utils";
 
 export const Footer = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const ref = useRef(null);
+    const isInView = useInView(ref);
+
+    const mainControls = useAnimation();
+
+    useEffect(() =>  {
+        if (isInView) {
+            mainControls.start("visible");
+        }
+    }, [isInView]);
 
     return (
-    <section className={styles.navbar} id="footer">
+    <motion.section className={styles.container} id="footer" 
+        initial= {{ opacity: 0, y: 75 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.25}}>
         <h1 className={styles.title}>&lt;TJ/&gt;</h1>
         <div className={styles.content}>
             <p className={styles.name}>
@@ -22,5 +36,5 @@ export const Footer = () => {
                 </p>
             </div>
         </div>
-    </section>);
+    </motion.section>);
 };
