@@ -12,14 +12,14 @@ export const Navbar = () => {
             &lt;TJ<span className={styles.dash}>/</span>&gt;
         </a> */}
         <a className={styles.title} href="/">
-            <img src={getImageUrl("portfolio/assets/nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
+            <img src={getImageUrl("/nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
         </a>
         <nav className={styles.menu}>
             <img className={styles.menuBtn} 
                 src={
                     menuOpen 
-                        ? getImageUrl("portfolio/assets/nav/closeIcon.svg")
-                        : getImageUrl("portfolio/assets/nav/menuIcon.svg")
+                        ? getImageUrl("/nav/closeIcon.svg")
+                        : getImageUrl("/nav/menuIcon.svg")
                 } 
                 alt="menu-button"
                 onClick={() => setMenuOpen(!menuOpen)}
