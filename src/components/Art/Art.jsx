@@ -15,15 +15,18 @@ export const Art = () => {
             mainControls.start("visible");
         }
     }, [isInView]);
-    
+
     return (
-    <motion.section className={styles.container} id="art"
+    <section className={styles.container} id="art">
+        <motion.h1 className={styles.title} 
         initial= {{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.25}}>
-        <h1 className={styles.title}>&lt;art/&gt;</h1>
+        transition={{ duration: 0.5, delay: 0.25 }}>&lt;art<span className={styles.dash}>/</span>&gt;</motion.h1>
         <div className={styles.content1}>
-            <div className={styles.art1}>
+            <motion.div className={styles.art1}
+            initial= {{ x: "-6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.80 }}>
                 <img src={getImageUrl("art/birthplace_art.svg")} alt="birthplace-artwork" className={styles.artwork1}>
                 </img>
                 <div className={styles.description}>
@@ -34,8 +37,11 @@ export const Art = () => {
                         Mixed Media
                     </p>
                 </div>
-            </div>
-            <div className={styles.art2}>
+            </motion.div>
+            <motion.div className={styles.art2}
+            initial= {{ x: "-6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.60 }}>
                 <img src={getImageUrl("art/incheon_art.svg")} alt="incheon-artwork" className={styles.artwork2}>
                 </img>
                 <div className={styles.description}>
@@ -46,8 +52,11 @@ export const Art = () => {
                         Acrylic and Oil Paint
                     </p>
                 </div>
-            </div>
-            <div className={styles.art3}>
+            </motion.div>
+            <motion.div className={styles.art3}
+            initial= {{ x: "-6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.40 }}>
                 <img src={getImageUrl("art/busan_art.svg")} alt="busan-artwork" className={styles.artwork3}>
                 </img>
                 <div className={styles.description}>
@@ -58,8 +67,11 @@ export const Art = () => {
                         Acrylic and Oil Paint
                     </p>
                 </div>
-            </div>
-            <div className={styles.art4}>
+            </motion.div>
+            <motion.div className={styles.art4}
+            initial= {{ x: "-6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.20 }}>
                 <img src={getImageUrl("art/precious_art.svg")} alt="precious-artwork" className={styles.artwork4}>
                 </img>
                 <div className={styles.description}>
@@ -70,10 +82,13 @@ export const Art = () => {
                         Watercolor and Colored Pencil
                     </p>
                 </div>
-            </div>
+            </motion.div>
         </div>
         <div className={styles.content2}>
-            <div className={styles.art5}>
+            <motion.div className={styles.art5}
+            initial= {{ x: "6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.20 }}>
                 <img src={getImageUrl("art/passerby_art.svg")} alt="passerby-artwork" className={styles.artwork5}>
                 </img>
                 <div className={styles.description1}>
@@ -87,8 +102,11 @@ export const Art = () => {
                         Colored Pencil
                     </p>
                 </div>
-            </div>
-            <div className={styles.art6}>
+            </motion.div>
+            <motion.div className={styles.art6}
+            initial= {{ x: "6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.40 }}>
                 <img src={getImageUrl("art/alley_art.svg")} alt="alley-artwork" className={styles.artwork6}>
                 </img>
                 <div className={styles.description}>
@@ -99,8 +117,11 @@ export const Art = () => {
                         Printmaking
                     </p>
                 </div>
-            </div>
-            <div className={styles.art7}>
+            </motion.div>
+            <motion.div className={styles.art7}
+            initial= {{ x: "6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.60 }}>
                 <img src={getImageUrl("art/plastic_art.svg")} alt="plastic-artwork" className={styles.artwork7}>
                 </img>
                 <div className={styles.description}>
@@ -111,8 +132,11 @@ export const Art = () => {
                         Acrylic and Oil Paint
                     </p>
                 </div>
-            </div>
-            <div className={styles.art8}>
+            </motion.div>
+            <motion.div className={styles.art8}
+            initial= {{ x: "6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.80 }}>
                 <img src={getImageUrl("art/solitude_art.svg")} alt="solitude-artwork" className={styles.artwork8}>
                 </img>
                 <div className={styles.description}>
@@ -123,7 +147,7 @@ export const Art = () => {
                         Graphite Drawing Pencil
                     </p>
                 </div>
-            </div>
+            </motion.div>
         </div>
-    </motion.section>);
+    </section>);
 };

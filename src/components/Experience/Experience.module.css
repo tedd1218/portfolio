@@ -65,3 +65,11 @@
 .rbi {
     margin-bottom: 50px;
 }
+
+.dash {
+    color: #E5495A;
+    font-family: "JetBrains Mono Variable", monospace;
+    font-size: 64px;
+    font-weight: 900;
+    text-decoration: none;
+}

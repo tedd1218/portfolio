@@ -17,13 +17,16 @@ export const Projects = () => {
     }, [isInView]);
 
     return (
-    <motion.section className={styles.container} id="projects"
+    <section className={styles.container} id="projects">
+        <motion.h1 className={styles.title} 
         initial= {{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.25}}>
-        <h1 className={styles.title}>&lt;projects/&gt;</h1>
+        transition={{ duration: 0.5, delay: 0.25}}>&lt;projects<span className={styles.dash}>/</span>&gt;</motion.h1>
         <div className={styles.content}>
-            <div className={styles.card1}>
+            <motion.div className={styles.card1}
+            initial= {{ x: "-6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.60 }}>
                 <img src={getImageUrl("projects/laptop1.svg")} alt="chipcity-laptop" className={styles.laptop1}>
                 </img>
                 <div className={styles.description}>
@@ -37,8 +40,11 @@ export const Projects = () => {
                         GitHub &gt;
                     </p>
                 </div>
-            </div>
-            <div className={styles.card2}>
+            </motion.div>
+            <motion.div className={styles.card2}
+            initial= {{ x:  "-6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.40 }}>
                 <img src={getImageUrl("projects/laptop2.svg")} alt="blog-laptop" className={styles.laptop2}>
                 </img>
                 <div className={styles.description}>
@@ -52,8 +58,11 @@ export const Projects = () => {
                         GitHub &gt;
                     </p>
                 </div>
-            </div>
-            <div className={styles.card3}>
+            </motion.div>
+            <motion.div className={styles.card3}
+            initial= {{ x:  "-6vh", opacity: 0, y: 75 }}
+            whileInView={{ x: 0, opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.20 }}>
                 <img src={getImageUrl("projects/laptop3.svg")} alt="football-laptop" className={styles.laptop3}>
                 </img>
                 <div className={styles.description}>
@@ -67,7 +76,7 @@ export const Projects = () => {
                         GitHub &gt;
                     </p>
                 </div>
-            </div>
+            </motion.div>
         </div>
-    </motion.section>);
+    </section>);
 };

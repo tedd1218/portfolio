@@ -21,8 +21,11 @@ export const Footer = () => {
     <motion.section className={styles.container} id="footer" 
         initial= {{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.25}}>
-        <h1 className={styles.title}>&lt;TJ/&gt;</h1>
+        transition={{ duration: 0.5, delay: 0.25 }}>
+        {/* <h1 className={styles.title}>&lt;TJ<span className={styles.dash}>/</span>&gt;</h1> */}
+        <a className={styles.title} href="/">
+            <img src={getImageUrl("nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
+        </a>
         <div className={styles.content}>
             <p className={styles.name}>
                 MADE BY TEDD JUNG

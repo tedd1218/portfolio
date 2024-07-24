@@ -1,13 +1,22 @@
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 48px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
     z-index: 2;
-    margin: 0 10%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
 }
 
 .title {
@@ -16,6 +25,15 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+    text-align: justify;
+}
+
+.dash {
+    color: #E5495A;
+    font-family: "JetBrains Mono Variable", monospace;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .menuBtn {
@@ -26,17 +44,35 @@
     display: flex;
 }
 
-.menuItems {
-    display: flex;
-    gap: 41px;
-    list-style: none;
+.menuItems a {
+    position: relative;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: color 0.2s linear;
+    color: var(--color-text);
 }
 
-.menuItems a {
-    font-size: 25px;
-    color: var(--color-text);
-    text-decoration: none;
+.menuItems a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #E5495A;
+    transition: .3s;
 }
+
+.menuItems a:hover::before {
+    width: 100%;
+}
+
+.menuItems a:hover {
+    transition: color 0.2s linear;
+    color: #E5495A;
+}
+
 
 @media screen and (max-width: 830px) {
     .navbar {
@@ -66,11 +102,20 @@
         gap: 13px;
         border-radius: 10px;
         background: #404040;
-        /* background: linear-gradient(0deg, rbga(25,55,109,0.2) 0%, rbga(25,55,109,1) 100%); */
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
     }
 
+    .menuItems a {
+        position: relative;
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 0px;
+        transition: color 0.2s linear;
+        color: var(--color-text);
+        background-color: transparent;
+    }
+    
     .menuOpen {
         display: flex;
         z-index: 1;

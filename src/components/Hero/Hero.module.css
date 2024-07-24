@@ -2,20 +2,17 @@
 
 .container {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 275px;
     z-index: 1;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 395px;
     margin-bottom: 370px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     color: var(--color-text);
     z-index: 1;
     /* margin: auto; */
@@ -33,6 +30,12 @@
     text-align: center;
 }
 
+.dash {
+    color: #E5495A;
+    font-family: "JetBrains Mono Variable", monospace;
+    font-size: 64px;
+}
+
 .description {
     font-size: 18px;
     font-family: var(--font-akshar);
@@ -44,6 +47,7 @@
 .resumeBtn {
     text-decoration: none;
     background-color: #000;
+    transition: background-color 0.5s linear;
     color: #FFFFFF;
     border-radius: 5px;
     font-size: 18px;
@@ -52,6 +56,12 @@
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+.resumeBtn:hover {
+    background-color: #E5495A;
+    transition: background-color 0.5s linear;
+    color: white;
 }
 
 .downloadBtn {

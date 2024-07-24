@@ -269,3 +269,74 @@
     line-height: 1;
     padding: 12px 0px 0px 0px;
 }
+
+.dash {
+    color: #E5495A;
+    font-family: "JetBrains Mono Variable", monospace;
+    font-size: 64px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+    .content1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .art1 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .art2 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .art3 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .art4 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .art5 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+    .art6 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .art7 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .art8 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
