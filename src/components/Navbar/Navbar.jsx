@@ -11,7 +11,7 @@ export const Navbar = () => {
         {/* <a className={styles.title} href="/">
             &lt;TJ<span className={styles.dash}>/</span>&gt;
         </a> */}
-        <a className={styles.title} href="/">
+        <a className={styles.title} href="/portfolio/">
             <img src={getImageUrl("nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
         </a>
         <nav className={styles.menu}>
