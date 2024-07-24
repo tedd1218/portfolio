@@ -1,9 +1,9 @@
 {
   "name": "tedd-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"./",
+  "homepage":"https://tedd1218.github.io/portfolio",
   "engines": {
     "node": "22.3.0",
     "npm": "10.8.1"
