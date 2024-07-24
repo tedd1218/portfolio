@@ -36,9 +36,13 @@ export const Projects = () => {
                     <p className={styles.stuff}>
                         Multiplayer Texas Hold'em Poker Game
                     </p>
-                    <p className={styles.github1}>
-                        GitHub &gt;
-                    </p>
+                    <motion.div className={styles.chipcitygithub} transition={{ duration: 0.25, delay: 0.25, type: "spring", stiffness: 200 }}
+                        whileHover={{ scale: 1.2, x: 20 }}
+                        whileTap={{ scale: 0.9, x: -10}}>
+                        <a href="https://github.com/tedd1218/chipcity" target="_blank" className={styles.github1}>
+                            GitHub &gt;
+                        </a>
+                    </motion.div>
                 </div>
             </motion.div>
             <motion.div className={styles.card2}
@@ -54,9 +58,9 @@ export const Projects = () => {
                     <p className={styles.stuff}>
                         Social Media Website
                     </p>
-                    <p className={styles.github2}>
+                    {/* <p className={styles.github2}>
                         GitHub &gt;
-                    </p>
+                    </p> */}
                 </div>
             </motion.div>
             <motion.div className={styles.card3}
@@ -72,9 +76,13 @@ export const Projects = () => {
                     <p className={styles.stuff}>
                         For Setting Up Fantasy Football Lineups
                     </p>
-                    <p className={styles.github3}>
-                        GitHub &gt;
-                    </p>
+                    <motion.div className={styles.fantasygithub} transition={{ duration: 0.25, delay: 0.25, type: "spring", stiffness: 200 }}
+                        whileHover={{ scale: 1.2, x: 20 }}
+                        whileTap={{ scale: 0.9, x: -10}}>
+                        <a href="https://github.com/tedd1218/FantasyFootballBot" target="_blank" className={styles.github3}>
+                            GitHub &gt;
+                        </a>
+                    </motion.div>
                 </div>
             </motion.div>
         </div>

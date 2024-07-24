@@ -66,10 +66,16 @@
 }
 
 .github1 {
+    text-decoration: none;
     background: transparent;
     color: black;
     margin-left: 10%;
     margin-right: 10%;
+    /* padding: 18px 0px 0px 0px; */
+}
+
+.chipcitygithub {
+    background: transparent;
     padding: 18px 0px 0px 0px;
 }
 
@@ -82,10 +88,16 @@
 }
 
 .github3 {
+    text-decoration: none;
     background: transparent;
     color: black;
     margin-left: 10%;
     margin-right: 10%;
+    padding: 18px 0px 0px 0px;
+}
+
+.fantasygithub {
+    background: transparent;
     padding: 18px 0px 0px 0px;
 }
 
