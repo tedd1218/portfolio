@@ -18,10 +18,10 @@ export const Projects = () => {
 
     return (
     <section className={styles.container} id="projects">
-        <motion.h1 className={styles.title} 
+        <motion.div className={styles.title} 
         initial= {{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.25}}>&lt;projects<span className={styles.dash}>/</span>&gt;</motion.h1>
+        transition={{ duration: 0.5, delay: 0.25}}>&lt;projects<span className={styles.dash}>/</span>&gt;</motion.div>
         <div className={styles.content}>
             <motion.div className={styles.card1}
             initial= {{ x: "-6vh", opacity: 0, y: 75 }}

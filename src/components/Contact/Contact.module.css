@@ -241,6 +241,25 @@
 }
 
 @media screen and (max-width: 830px) {
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .title {
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 40px;
+        font-family: "JetBrains Mono Variable", monospace;
+        text-align: center;
+    }
+
+    .dash {
+        color: #E5495A;
+        font-family: "JetBrains Mono Variable", monospace;
+        font-size: 50px;
+    }
+
     .cmupic {
         display: none;
     }
@@ -251,7 +270,7 @@
         flex-shrink: 0;
         border-radius: 10px;
         background: #FFF;
-        margin-left: 41px;
+        margin-left: 0px;
     }
 
     .contacttext {

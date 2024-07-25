@@ -154,4 +154,24 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .title {
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 40px;
+        font-family: "JetBrains Mono Variable", monospace;
+        text-align: center;
+    }
+
+    .dash {
+        color: #E5495A;
+        font-family: "JetBrains Mono Variable", monospace;
+        font-size: 50px;
+    }
+    
 }

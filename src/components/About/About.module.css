@@ -43,3 +43,28 @@
     font-weight: 900;
     text-decoration: none;
 }
+
+@media screen and (max-width: 830px) {
+    .title {
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 40px;
+        font-family: "JetBrains Mono Variable", monospace;
+        text-align: center;
+    }
+
+    .dash {
+        color: #E5495A;
+        font-family: "JetBrains Mono Variable", monospace;
+        font-size: 50px;
+    }
+
+    .github {
+        width: 450px;
+    }
+
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

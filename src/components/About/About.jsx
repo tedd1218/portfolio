@@ -18,10 +18,10 @@ export const About = () => {
 
     return (
     <section className={styles.container} id="about">
-        <motion.h1 className={styles.title} 
+        <motion.div className={styles.title} 
         initial= {{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.25 }}>&lt;about<span className={styles.dash}>/</span>&gt;</motion.h1>
+        transition={{ duration: 0.5, delay: 0.25 }}>&lt;about<span className={styles.dash}>/</span>&gt;</motion.div>
         <motion.p className={styles.para}
         initial= {{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
