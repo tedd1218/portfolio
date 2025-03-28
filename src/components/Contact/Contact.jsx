@@ -46,7 +46,7 @@ export const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.25 }}>&lt;contact<span className={styles.dash}>/</span>&gt;</motion.h1>
         <div className={styles.content}>
-            <motion.img src={getImageUrl("contact/cmupic.svg")} alt="cmu-picture" className={styles.cmupic}
+            <motion.img src={getImageUrl("portfolio/contact/cmupic.svg")} alt="cmu-picture" className={styles.cmupic}
             initial= {{ x: -300, opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}>
@@ -96,7 +96,7 @@ export const Contact = () => {
                     <p className={styles.messagetext}>
                         MESSAGE HAS BEEN SENT. THANKS!
                     </p>
-                    <img src={getImageUrl("nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
+                    <img src={getImageUrl("portfolio/nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
                 </div>
                 )}
             </motion.div>

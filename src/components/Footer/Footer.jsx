@@ -24,7 +24,7 @@ export const Footer = () => {
         transition={{ duration: 0.5, delay: 0.25 }}>
         {/* <h1 className={styles.title}>&lt;TJ<span className={styles.dash}>/</span>&gt;</h1> */}
         <a className={styles.title} href="/portfolio/">
-            <img src={getImageUrl("nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
+            <img src={getImageUrl("portfolio/nav/T_logo.svg")} alt="tedd-logo" className={styles.logo}></img>
         </a>
         <div className={styles.content}>
             <p className={styles.name}>

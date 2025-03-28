@@ -27,7 +27,7 @@ export const Art = () => {
             initial= {{ x: "-6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.80 }}>
-                <img src={getImageUrl("art/birthplace_art.svg")} alt="birthplace-artwork" className={styles.artwork1}>
+                <img src={getImageUrl("portfolio/art/birthplace_art.svg")} alt="birthplace-artwork" className={styles.artwork1}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -42,7 +42,7 @@ export const Art = () => {
             initial= {{ x: "-6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.60 }}>
-                <img src={getImageUrl("art/incheon_art.svg")} alt="incheon-artwork" className={styles.artwork2}>
+                <img src={getImageUrl("portfolio/art/incheon_art.svg")} alt="incheon-artwork" className={styles.artwork2}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -57,7 +57,7 @@ export const Art = () => {
             initial= {{ x: "-6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.40 }}>
-                <img src={getImageUrl("art/busan_art.svg")} alt="busan-artwork" className={styles.artwork3}>
+                <img src={getImageUrl("portfolio/art/busan_art.svg")} alt="busan-artwork" className={styles.artwork3}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -72,7 +72,7 @@ export const Art = () => {
             initial= {{ x: "-6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.20 }}>
-                <img src={getImageUrl("art/precious_art.svg")} alt="precious-artwork" className={styles.artwork4}>
+                <img src={getImageUrl("portfolio/art/precious_art.svg")} alt="precious-artwork" className={styles.artwork4}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -89,7 +89,7 @@ export const Art = () => {
             initial= {{ x: "6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.20 }}>
-                <img src={getImageUrl("art/passerby_art.svg")} alt="passerby-artwork" className={styles.artwork5}>
+                <img src={getImageUrl("portfolio/art/passerby_art.svg")} alt="passerby-artwork" className={styles.artwork5}>
                 </img>
                 <div className={styles.description1}>
                     <p className={styles.name1}>
@@ -107,7 +107,7 @@ export const Art = () => {
             initial= {{ x: "6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.40 }}>
-                <img src={getImageUrl("art/alley_art.svg")} alt="alley-artwork" className={styles.artwork6}>
+                <img src={getImageUrl("portfolio/art/alley_art.svg")} alt="alley-artwork" className={styles.artwork6}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -122,7 +122,7 @@ export const Art = () => {
             initial= {{ x: "6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.60 }}>
-                <img src={getImageUrl("art/plastic_art.svg")} alt="plastic-artwork" className={styles.artwork7}>
+                <img src={getImageUrl("portfolio/art/plastic_art.svg")} alt="plastic-artwork" className={styles.artwork7}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -137,7 +137,7 @@ export const Art = () => {
             initial= {{ x: "6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.80 }}>
-                <img src={getImageUrl("art/solitude_art.svg")} alt="solitude-artwork" className={styles.artwork8}>
+                <img src={getImageUrl("portfolio/art/solitude_art.svg")} alt="solitude-artwork" className={styles.artwork8}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>

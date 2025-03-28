@@ -27,7 +27,7 @@ export const Experience = () => {
             initial= {{ opacity: 0, y: 75 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}>
-                <img src={getImageUrl("experience/astro.svg")} alt="astrobotic-logo" className={styles.astro}>
+                <img src={getImageUrl("portfolio/experience/astro.svg")} alt="astrobotic-logo" className={styles.astro}>
                 </img>
                 <div className={styles.card}>
                     <p className={styles.description}>
@@ -45,7 +45,7 @@ export const Experience = () => {
             initial= {{ opacity: 0, y: 75 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}>
-                <img src={getImageUrl("experience/cmr.svg")} alt="cmr-logo" className={styles.cmr}>
+                <img src={getImageUrl("portfolio/experience/cmr.svg")} alt="cmr-logo" className={styles.cmr}>
                 </img>
                 <div className={styles.card}>
                     <p className={styles.description}>
@@ -63,7 +63,7 @@ export const Experience = () => {
             initial= {{ opacity: 0, y: 75 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}>
-                <img src={getImageUrl("experience/nasa.svg")} alt="nasa-logo" className={styles.nasa}>
+                <img src={getImageUrl("portfolio/experience/nasa.svg")} alt="nasa-logo" className={styles.nasa}>
                 </img>
                 <div className={styles.card}>
                     <p className={styles.description}>
@@ -81,7 +81,7 @@ export const Experience = () => {
             initial= {{ opacity: 0, y: 75 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.25 }}>
-                <img src={getImageUrl("experience/rbi.svg")} alt="rbi-logo" className={styles.rbi}>
+                <img src={getImageUrl("portfolio/experience/rbi.svg")} alt="rbi-logo" className={styles.rbi}>
                 </img>
                 <div className={styles.card}>
                     <p className={styles.description}>
