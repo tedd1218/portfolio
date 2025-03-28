@@ -122,7 +122,7 @@ export const Art = () => {
             initial= {{ x: "6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.60 }}>
-                <img src={getImageUrl("portfolio/art/plastic_art.svg")} alt="plastic-artwork" className={styles.artwork7}>
+                <img src={getImageUrl("art/plastic_art.svg")} alt="plastic-artwork" className={styles.artwork7}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -137,7 +137,7 @@ export const Art = () => {
             initial= {{ x: "6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.80 }}>
-                <img src={getImageUrl("portfolio/art/solitude_art.svg")} alt="solitude-artwork" className={styles.artwork8}>
+                <img src={getImageUrl("art/solitude_art.svg")} alt="solitude-artwork" className={styles.artwork8}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>

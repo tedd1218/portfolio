@@ -27,7 +27,7 @@ export const Projects = () => {
             initial= {{ x: "-6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.60 }}>
-                <img src={getImageUrl("portfolio/projects/laptop1.svg")} alt="chipcity-laptop" className={styles.laptop1}>
+                <img src={getImageUrl("laptop1.svg")} alt="chipcity-laptop" className={styles.laptop1}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -49,7 +49,7 @@ export const Projects = () => {
             initial= {{ x:  "-6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.40 }}>
-                <img src={getImageUrl("portfolio/projects/laptop2.svg")} alt="blog-laptop" className={styles.laptop2}>
+                <img src={getImageUrl("laptop2.svg")} alt="blog-laptop" className={styles.laptop2}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>
@@ -67,7 +67,7 @@ export const Projects = () => {
             initial= {{ x:  "-6vh", opacity: 0, y: 75 }}
             whileInView={{ x: 0, opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.20 }}>
-                <img src={getImageUrl("portfolio/projects/laptop3.svg")} alt="football-laptop" className={styles.laptop3}>
+                <img src={getImageUrl("laptop3.svg")} alt="football-laptop" className={styles.laptop3}>
                 </img>
                 <div className={styles.description}>
                     <p className={styles.name}>

@@ -51,7 +51,7 @@ export const About = () => {
         initial= {{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.25 }}>
-            <img src={getImageUrl("portfolio/about/github.png")} alt="github-chart" className={styles.github}>
+            <img src={getImageUrl("about/github.png")} alt="github-chart" className={styles.github}>
             </img>
         </motion.div>
         <motion.p className={styles.para}

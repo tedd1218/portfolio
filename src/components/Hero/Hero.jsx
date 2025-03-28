@@ -29,7 +29,7 @@ export const Hero = () => {
             transition={{ duration: 0.5 }}>
                 Hello World! My name is Tedd Jung. I am an Electrical and Computer Engineering student at Carnegie Mellon University.
             </motion.p>
-            <motion.a href={getImageUrl("portfolio/hero/teddresume.pdf")} target="_blank" className={styles.resumeBtn} 
+            <motion.a href={getImageUrl("hero/teddresume.pdf")} target="_blank" className={styles.resumeBtn} 
             initial= {{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.25, delay: 0.25, type: "spring", stiffness: 200 }}
@@ -39,7 +39,7 @@ export const Hero = () => {
             whileTap={{ scale: 0.9}}>
                 Download Resume  
                 <img className={styles.downloadBtn}
-                src={getImageUrl("portfolio/hero/downloadBtn.svg")} 
+                src={getImageUrl("hero/downloadBtn.svg")} 
                 alt="download-button"
                 />
             </motion.a>
